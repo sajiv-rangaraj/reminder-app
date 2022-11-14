@@ -1,0 +1,24 @@
+.add_reminder_popup{
+    display: flex;
+    margin-left: 10px;
+    flex-wrap: wrap;
+    font-size: larger;
+    margin: 0 5%;
+    background: #ededed;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.add_reminder_btn {
+    border-radius: 8px;
+    background: rgb(179,131,238);
+    background: linear-gradient(90deg, rgba(179,131,238,1) 0%, rgba(255,164,93,1) 50%, rgba(255,212,162,1) 100%);
+    margin-right: 12px;
+}
+
+@media screen and (max-width:900px) {
+    .reminder_input, .add_reminder_popup {
+        flex-direction: column;
+        height: fit-content;
+        padding:  0 0 5% ;
+    }
+}

@@ -1,0 +1,8 @@
+input {
+    border: none;
+    border-bottom: rgba(144, 144, 144, 0.5);
+}
+
+input:focus-visible {
+    outline: none;
+}

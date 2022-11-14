@@ -1,0 +1,10 @@
+.reminder_app_heading_div {
+    background: rgb(218,174,238);
+    background: radial-gradient(circle, rgba(218,174,238,1) 0%, rgba(148,233,219,1) 100%);
+}
+.logout_image {
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border-radius: 50%;
+}
